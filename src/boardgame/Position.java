@@ -2,8 +2,8 @@ package boardgame;
 
 public class Position {
 	
-	private int row;
-	private int column;
+	private int row; // variavel da linha que a peça vai ocuppar
+	private int column; // variavel da coluna que a peça vai ocupar
 	
 	public Position(int row, int column) {
 		this.row = row;
