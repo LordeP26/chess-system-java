@@ -15,4 +15,9 @@ public class Queen extends ChessPiece{
 		return "Q";
 	}
 
+	@Override
+	public boolean[][] possibleMoves() {
+		return null;
+	}
+
 }

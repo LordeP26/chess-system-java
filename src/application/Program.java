@@ -18,7 +18,8 @@ public class Program {
 		
 		while(true) {
 			try {
-				UI.clearScreen();
+				UI.clearScreen(); //ctrl c para parar o app e enter para tentar dnv
+				
 				UI.printBoard(chessMatch.getPieces());
 				System.out.println();
 				System.out.print("Source: ");
