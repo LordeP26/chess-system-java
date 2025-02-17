@@ -20,7 +20,7 @@ public class Program {
 			try {
 				UI.clearScreen(); //ctrl c para parar o app e enter para tentar dnv
 				
-				UI.printBoard(chessMatch.getPieces());
+				UI.printMatch(chessMatch);
 				System.out.println();
 				System.out.print("Source: ");
 				ChessPosition source = UI.readChessPosition(sc);
